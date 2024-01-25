@@ -20,7 +20,7 @@
     <!-- /.content-header -->
 
     <!-- Add your page content here -->
-    <div class="content">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-6">
             <!-- small box -->
@@ -81,6 +81,7 @@
                 <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
+    </div>
     </div>
     </section>
     @endsection

@@ -7,7 +7,7 @@
         <i class="nav-icon fas fa-copy"></i> <p> Blog Post <i class="fas fa-angle-left right"></i></p>
     </a>
     <ul class="nav nav-treeview">
-        <li class="nav-item"> <a href="pages/layout/fixed-topnav.html" class="nav-link"> <i class="far fa-circle nav-icon"></i> <p>Blog Posts</p> </a>
+        <li class="nav-item"> <a href="{{ route('blog.index') }}" class="nav-link {{ Request::is('blog') ? 'active' : '' }}"> <i class="far fa-circle nav-icon"></i> <p>Blog Posts</p> </a>
         </li>
         <li class="nav-item"> <a href="{{ route('projects.index') }}" class="nav-link {{ Request::is('projects') ? 'active' : '' }}"> <i class="far fa-circle nav-icon"></i> <p>Projects</p> </a>
         </li>

@@ -10,5 +10,11 @@ class Category extends Model
     use HasFactory;
 
     protected $fillable = ['name'];
+    public function projects()
+    {
+        return $this->hasMany(Projects::class); //relacion de uno a muchos
+    }
+
+
 }
 
